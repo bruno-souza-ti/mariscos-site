@@ -6,44 +6,37 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>LobSter</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 
 <body>
-    <!-- ========== CABEÇALHO ========== -->
     <header class="header">
         <a href="index.html" class="logo"><span>lob</span>Ster</a>
-
         <div id="menu-btn" class="fas fa-bars"></div>
-
         <nav class="navbar">
             <a href="#home">Início</a>
             <a href="#reserva">Reserva</a>
             <a href="#delivery">Delivery</a>
             <a href="#features">Lançamentos</a>
-            <a href="#pricing">Cardápio</a>
+            <a href="cardápio.html">Cardápio</a>
             <a href="#trainers">Chefs</a>
             <a href="#feedback">Feedbacks</a>
             <a href="#blogs">Blogs</a>
         </nav>
     </header>
-    <!-- ========== FIM CABEÇALHO ========== -->
 
     <main>
-        <!-- ========== SEÇÃO HOME ========== -->
         <section id="home" class="home">
             <div class="swiper home-slider">
-
                 <div class="swiper-wrapper">
-
                     <div class="swiper-slide slide" style="background: url(images/home-bg.png) no-repeat;">
                         <div class="content">
                             <a href="#" class="btn">Explorar</a>
                         </div>
                     </div>
-
                     <div class="swiper-slide slide" style="background: url(images/banner.png) no-repeat;">
                         <div class="content">
                             <span>Melhor fruto do mar de São Paulo.</span>
@@ -51,7 +44,6 @@
                             <a href="#" class="btn">Explorar</a>
                         </div>
                     </div>
-
                     <div class="swiper-slide slide" style="background: url(images/lagosta.png) no-repeat;">
                         <div class="content">
                             <span>Melhor fruto do mar de São Paulo.</span>
@@ -63,26 +55,21 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
-        <!-- ========== FIM SEÇÃO HOME ========== -->
 
-        <!-- ========== SEÇÃO RESERVA ========== -->
         <section id="reserva" class="about">
             <div class="image">
                 <img src="images/reserva.png" alt="@?!">
                 <a href="#" class="btn">Reserva</a>
             </div>
-
             <div class="content">
                 <span>Reserva</span>
                 <h3 class="title">Sua mesa no paraíso dos frutos do mar</h3>
-                <p>Garanta uma experiência única com o melhor da culinária marítima. Reserve com antecedência e desfrute de pratos frescos em um ambiente aconchegante.</p>
-        
+                <p>Garanta uma experiência única com o melhor da culinária marítima.</p>
                 <div class="box-container">
                     <div class="box">
                         <h3><i class="fas fa-check"></i>Ambiente Exclusivo</h3>
                         <p>Mesas com vista para o mar e clima acolhedor</p>
                     </div>
-        
                     <div class="box">
                         <h3><i class="fas fa-check"></i>Frutos do Mar Frescos</h3>
                         <p>Selecionamos os melhores ingredientes do dia</p>
@@ -99,26 +86,21 @@
                 <a href="#" class="btn">Reservar Agora</a>
             </div>
         </section>
-        <!-- ========== FIM SEÇÃO RESERVA ========== -->
-            
-        <!-- ========== SEÇÃO DELIVERY ========== -->
+
         <section id="delivery" class="about">
             <div class="image">
                 <img src="images/delivery.png" alt="">
                 <a href="#" class="btn">Delivery</a>
             </div>
-
             <div class="content">
                 <span>Delivery</span>
                 <h3 class="title">Sabores do mar direto na sua casa</h3>
-                <p>Desfrute do melhor da nossa cozinha onde estiver. Com o nosso delivery, seus pratos preferidos de frutos do mar chegam fresquinhos e cheios de sabor.</p>
-        
+                <p>Com o nosso delivery, seus pratos preferidos chegam fresquinhos.</p>
                 <div class="box-container">
                     <div class="box">
                         <h3><i class="fas fa-check"></i>Peixes e Mariscos Frescos</h3>
                         <p>Pratos preparados com ingredientes do dia</p>
                     </div>
-        
                     <div class="box">
                         <h3><i class="fas fa-check"></i>Embalagem Segura</h3>
                         <p>Conserva o sabor e a qualidade até sua mesa</p>
@@ -135,12 +117,9 @@
                 <a href="#" class="btn">Pedir Agora</a>
             </div>
         </section>
-        <!-- ========== FIM SEÇÃO DELIVERY ========== -->
 
-        <!-- ========== SEÇÃO LANÇAMENTOS ========== -->
         <section id="features" class="features">
-            <h1 class="heading"> <span>Laçamentos</span> </h1>
-
+            <h1 class="heading"><span>Lançamentos</span></h1>
             <div class="box-container">
                 <div class="box">
                     <div class="image">
@@ -149,11 +128,10 @@
                     <div class="content">
                         <img src="images/dining.png" alt="">
                         <h3>Entradas</h3>
-                        <p>Experimente nossos bolinhos de bacalhau artesanais com toque especial do chefe.</p>
+                        <p>Bolinhos de bacalhau com toque especial do chefe.</p>
                         <a href="#" class="btn">Ler Mais</a>
                     </div>
                 </div>
-
                 <div class="box second">
                     <div class="image">
                         <img src="images/moqueca-peixe.jpg" alt="">
@@ -161,11 +139,10 @@
                     <div class="content">
                         <img src="images/food.png" alt="">
                         <h3>Pratos Principais</h3>
-                        <p>Moqueca de peixe com tempero baiano e acompanhamentos irresistíveis.</p>
+                        <p>Moqueca com tempero baiano e acompanhamentos.</p>
                         <a href="#" class="btn">Ler Mais</a>
                     </div>
                 </div>
-
                 <div class="box">
                     <div class="image">
                         <img src="images/mousse-maracuja.jpg" alt="">
@@ -179,17 +156,14 @@
                 </div>
             </div>
         </section>
-        <!-- ========== FIM SEÇÃO LANÇAMENTOS ========== -->
 
-        <!-- ========== SEÇÃO CHEFS ========== -->
         <section id="trainers" class="trainers">
-            <h1 class="heading"> <span>Chefes Especializados</span> </h1>
+            <h1 class="heading"><span>Chefs Especializados</span></h1>
             <div class="box-container">
-
                 <div class="box">
                     <img src="images/jeff-bezos.png" alt="">
                     <div class="content">
-                        <span>Chefe</span>
+                        <span>Chef</span>
                         <h3>Jeferson Bezos</h3>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -202,7 +176,7 @@
                 <div class="box">
                     <img src="images/musk.png" alt="">
                     <div class="content">
-                        <span>Chefe</span>
+                        <span>Chef</span>
                         <h3>Elon Muskito</h3>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -212,12 +186,11 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="box">
                     <img src="images/erick-jacquin.png" alt="">
                     <div class="content">
-                        <span>Chefe</span>
-                        <h3>Mestre Jaca</h3>
+                        <span>Chef</span>
+                        <h3>Mestre Jacão</h3>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
                             <a href="#" class="fab fa-twitter"></a>
@@ -226,11 +199,10 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="box">
                     <img src="images/Zuckerberg.png" alt="">
                     <div class="content">
-                        <span>Chefe</span>
+                        <span>Chef</span>
                         <h3>Marquinhos Zuckerberg</h3>
                         <div class="share">
                             <a href="#" class="fab fa-facebook-f"></a>
@@ -242,18 +214,14 @@
                 </div>
             </div>
         </section>
-        <!-- ========== FIM SEÇÃO CHEFS ========== -->
 
-        <!-- ========== SEÇÃO BANNER ========== -->
         <section class="banner">
             <span>Junte-se a Nós</span>
             <h3>Ganhe até 50% de desconto</h3>
             <p>Durante o mês de maio, aproveite 50% de desconto em reservas antecipadas para dois ou mais convidados.</p>
             <a href="#" class="btn">Quero</a>
         </section>
-        <!-- ========== FIM SEÇÃO BANNER ========== -->
 
-        <!-- ========== SEÇÃO FEEDBACK ========== -->
         <section id="feedback" class="review">
             <div class="information">
                 <span>Feedbacks</span>
@@ -262,11 +230,9 @@
                 <a href="#" class="btn">Ver Avaliações</a>
             </div>
             <div class="swiper review-slider">
-
                 <div class="swiper-wrapper">
-
                     <div class="swiper-slide slide">
-                        <p>Experiência inesquecível! A moqueca estava simplesmente divina e o atendimento impecável.</p>
+                        <p>Experiência inesquecível! A moqueca estava divina e o atendimento impecável.</p>
                         <div class="user">
                             <img src="https://i.postimg.cc/4xhDF81N/pic-1.png" alt="">
                             <div class="info">
@@ -276,7 +242,6 @@
                             <i class="fas fa-quote-left"></i>
                         </div>
                     </div>
-
                     <div class="swiper-slide slide">
                         <p>O melhor polvo grelhado que já comi. Ambiente romântico e sofisticado.</p>
                         <div class="user">
@@ -288,7 +253,6 @@
                             <i class="fas fa-quote-left"></i>
                         </div>
                     </div>
-
                     <div class="swiper-slide slide">
                         <p>Fizemos uma comemoração especial e tudo foi perfeito. Parabéns ao chef e à equipe!</p>
                         <div class="user">
@@ -303,50 +267,41 @@
                 </div>
             </div>
         </section>
-        <!-- ========== FIM SEÇÃO FEEDBACK ========== -->
 
-        <!-- ========== SEÇÃO BLOGS ========== -->
         <section id="blogs" class="blogs">
-            <h1 class="heading"> <span>Postagens Diárias</span> </h1>
+            <h1 class="heading"><span>Postagens Diárias</span></h1>
             <div class="swiper blogs-slider">
                 <div class="swiper-wrapper">
-
                     <div class="swiper-slide slide">
                         <div class="image">
                             <img src="images/frutos-mar.png" alt="">
                         </div>
                         <div class="content">
-                            <div class="link"> <a href="#">Como escolher frutos do mar</a> <span>|</span> <a href="#">04 maio, 2025</a>
-                            </div>
+                            <div class="link"><a href="#">Como escolher frutos do mar</a> <span>|</span> <a href="#">04 maio, 2025</a></div>
                             <h3>Dicas dos nossos chefs.</h3>
-                            <p>para você identificar frutos do mar de qualidade na feira ou mercado.</p>
+                            <p>Como identificar frutos do mar de qualidade na feira ou mercado.</p>
                             <a href="#" class="btn">Ler Mais</a>
                         </div>
                     </div>
-
                     <div class="swiper-slide slide">
                         <div class="image">
                             <img src="images/moqueca.png" alt="">
                         </div>
                         <div class="content">
-                            <div class="link"> <a href="#">Moqueca: a história do prato</a> <span>|</span> <a href="#">04 maio, 2025</a>
-                            </div>
-                            <h3>as origens da tradicional moqueca.</h3>
-                            <p>Descubra como esse prato típico se desenvolveu nas regiões do Brasil.</p>
+                            <div class="link"><a href="#">Moqueca: a história do prato</a> <span>|</span> <a href="#">04 maio, 2025</a></div>
+                            <h3>As origens da tradicional moqueca.</h3>
+                            <p>Descubra como esse prato se desenvolveu nas regiões do Brasil.</p>
                             <a href="#" class="btn">Ler Mais</a>
                         </div>
                     </div>
-
                     <div class="swiper-slide slide">
                         <div class="image">
                             <img src="images/vinhos-mar.jpg" alt="">
                         </div>
                         <div class="content">
-                            <div class="link">
-                                <a href="#">vinhos com peixes</a> <span>|</span> <a href="#">04 maio, 2025</a>
-                              </div>
-                              <h3>harmonizar vinhos com frutos do mar.</h3>
-                              <p>Aprenda quais vinhos realçam o sabor dos frutos do mar em diferentes preparos.</p>
+                            <div class="link"><a href="#">Vinhos com peixes</a> <span>|</span> <a href="#">04 maio, 2025</a></div>
+                            <h3>Harmonizar vinhos com frutos do mar.</h3>
+                            <p>Aprenda quais vinhos realçam o sabor dos frutos do mar.</p>
                             <a href="#" class="btn">Ler Mais</a>
                         </div>
                     </div>
@@ -354,59 +309,53 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
-        <!-- ========== FIM SEÇÃO BLOGS ========== -->
     </main>
-    <!-- ========== FIM CONTEÚDO PRINCIPAL ========== -->
 
-    <!-- ========== RODAPÉ ========== -->
-    <footer class="footer">
-        <div class="box-container">
-            <div class="box">
-                <h3>Links rápidos</h3>
-                <a class="links" href="#home">Início</a>
-                <a class="links" href="#reserva">Reserva</a>
-                <a class="links" href="#delivery">Delivery</a>
-                <a class="links" href="#features">Lançamentos</a>
-                <a class="links" href="#pricing">Cardápio</a>
-                <a class="links" href="#trainers">Chefs</a>
-                <a class="links" href="#feedback">Feedbacks</a>
-                <a class="links" href="#blogs">blogs</a>
-            </div>
-            <div class="box">
-                <h3>Horário de Funcionamento</h3>
-                <p> Segunda : <i> 11:00 - 22:00 </i> </p>
-                <p> Terça : <i> 10:30 - 22:00 </i> </p>
-                <p> Quarta : <i> 10:30 - 22:00 </i> </p>
-                <p> Quinta : <i> 10:30 - 22:00 </i> </p>
-                <p> Sexta : <i> 10:30 - 22:00 </i> </p>
-                <p> Sábado : <i> 10:30 - 22:00 </i> </p>
-                <p> Domingo : <i> 11:00 - 22:00 </i> </p>
-            </div>
-            <div class="box">
-                <h3>Nossos Contatos</h3>
-                <p> <i class="fas fa-phone"></i> +11 97069-1368 </p>
-                <p> <i class="fas fa-envelope"></i> restaurant@gmail.com </p>
-                <p> <i class="fas fa-map"></i> Jundiai - SP, Brazil</p>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
-                    <a href="#" class="fab fa-pinterest"></a>
+    <footer class="footer bg-dark text-white pt-5 pb-4">
+        <div class="container text-md-left">
+            <div class="row text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">LobSter</h5>
+                    <p>O melhor restaurante de frutos do mar de São Paulo. Qualidade, frescor e sabor em cada prato.</p>
+                </div>
+    
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Navegação</h5>
+                    <p><a href="#home" class="text-white text-decoration-none">Início</a></p>
+                    <p><a href="#reserva" class="text-white text-decoration-none">Reserva</a></p>
+                    <p><a href="#delivery" class="text-white text-decoration-none">Delivery</a></p>
+                    <p><a href="#pricing" class="text-white text-decoration-none">Cardápio</a></p>
+                </div>
+    
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Contato</h5>
+                    <p><i class="fas fa-home me-3"></i> Av. Oceano Azul, 123 - São Paulo, SP</p>
+                    <p><i class="fas fa-envelope me-3"></i> contato@lobster.com</p>
+                    <p><i class="fas fa-phone me-3"></i> (11) 98765-4321</p>
+                    <p><i class="fas fa-clock me-3"></i> Seg a Dom: 11h - 23h</p>
+                </div>
+    
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Siga-nos</h5>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#"><i class="fab fa-tripadvisor"></i></a>
                 </div>
             </div>
-            <div class="box">
-                <h3>Novos</h3>
-                <p>Se inscreva para receber as novidades</p>
-                <form action="">
-                    <input type="email" name="" class="email" placeholder="digite seu e-mail" id="">
-                    <input type="submit" value="subscribe" class="btn">
-                </form>
+    
+            <hr class="my-3" />
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8 col-lg-8">
+                    <p class="text-center">© 2025 LobSter. Todos os direitos reservados.</p>
+                </div>
             </div>
         </div>
     </footer>
-    <!-- ========== FIM RODAPÉ ========== -->
+    
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script src='main.js'></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
